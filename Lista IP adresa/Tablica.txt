@@ -1,1 +1,33 @@
+Broj	Izvor Uređaj	Izvor Port	Izvor IP adresa	Odredište uređaj	Odredište Port	Odredište IP adresa
+1	P	g1/0		PE-ST	g1/0	
+1	P	g2/0		PE-RI	g2/0	
+1	P	g3/0		PE-OS	g3/0	
+2	PE-ST	g1/0		P	g1/0	
+2	PE-ST	g2/0		CE-ST	g2/0	
+3	PE-RI	g1/0		CE-RI	g1/0	
+3	PE-RI	g2/0		P	g2/0	
+4	PE-OS	g2/0		CE-OS	g2/0	
+4	PE-OS	g3/0		P	g3/0	
+5	CE-ST	g0/0		PC-ST	e0	
+5	CE-ST	g2/0		PE-ST	g2/0	
+5	CE-ST	s6/0		BKP	s6/0	
+5	CE-ST	s6/1		ISP	s6/1	
+6	CE-RI	g0/0		PC-RI	e0	
+6	CE-RI	g1/0		PE-RI	g1/0	
+6	CE-RI	s6/2		ISP	s6/2	
+7	CE-OS	g0/0		PC-OS	e0	
+7	CE-OS	g2/0		PE-OS	g2/0	
+7	CE-OS	s6/3		ISP	s6/3	
+8	BKP	s6/0		CE-ST	s6/0	
+8	BKP	s6/1		DC2	s6/1	
+9	ISP	g1/0		DC1	g1/0	
+9	ISP	g3/0		DC2	g3/0	
+9	ISP	s6/1		CE-ST	s6/1	
+9	ISP	s6/2		CE-RI	s6/2	
+9	ISP	s6/3		CE-OS	s6/3	
+10	DC1	g1/0		ISP	g1/0	
+10	DC1	g2/0		SwitchDC	e2	
+11	DC2	g1/0		SwitchDC	e1	
+12	DC2	g3/0		ISP	g3/0	
+12	DC2	s6/1		BKP	s6/1	
 
